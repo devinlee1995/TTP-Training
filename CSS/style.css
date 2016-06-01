@@ -1,0 +1,185 @@
+body {
+	margin: 0 auto;
+	background-color: #FFCFAE;
+}
+
+#whiteBox {
+	background-color: white;
+	margin: 0 auto;
+	width: 960px;
+	height: 590px;
+}
+
+#logo {
+	margin: 0px auto 10px auto;
+	width: 360px;
+	height: 70px;
+}
+
+#navigation {
+	margin: 10px auto 10px auto;
+	width: 960px;
+	text-align: center;
+	list-style: none;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0 auto;
+	height: 300px;
+
+}
+
+#left{
+	background-color: white;
+	display: inline-block;
+	float: left;
+	width: 480px;
+	height: 300px;
+	
+}
+#right {
+	background-color: white;
+	display: inline-block;
+	float: right;
+	width: 480px;
+	height: 300px;
+	
+}
+
+#text_below_left {
+	float: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 400px;
+  	clear: both;
+}
+
+#text_below_right {
+	float: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 400px;
+  	clear: both;
+}
+
+#footer {
+	width: 450px;
+	height: 20px;
+	display: inline-block;
+	position: fixed;     
+	bottom: 10px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+.right_image {
+	float: right;
+	padding-right: 100px;
+    width: 50%;
+    height: 50%; 
+    padding-bottom: 20px;
+    clear: both;
+}
+
+.left_image {
+	float: left;
+	padding-left: 100px;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+.fblogo {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32px; 
+}
+
+.twitterlogo {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+
+li {
+	display: inline;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.links{
+	color: black;
+	font-size: 15px;
+	font-family: 'Gotham Light'; 
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+a.links:hover {
+	color: #FFCFAE;
+	text-decoration: underline;
+}
+
+a.links:active {
+	color: #FFCFAE;
+	text-decoration: underline;
+}
+
+
+p{
+	font-size: 12px; 
+	font-family: 'Gotham Light'; 
+	padding: 10px;
+	color: black;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 20px; 
+	font-family: 'Gotham Book'; 
+	padding: 10px;
+	color: black;
+	text-align: center;
+}
+
+h1:hover {
+	color: #FFCFAE;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+ 	src: url('fonts/Gotham-Bold.eot');
+ 	src: url('fonts/ufonts.com_gotham-bold.ttf')  format('truetype'), 
+ 	url('fonts/Gotham-Bold.woff') format('woff');
+ 	font-weight: 700;
+ 	font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Book';
+	src: url('fonts/Gotham-Book.eot');
+  	src: url('fonts/ufonts.com_gotham-book.ttf')  format('truetype'),
+  	url('fonts/Gotham-Book.woff') format('woff'); 
+ 	font-weight: 400;
+ 	font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Light';
+   src: url('fonts/Gotham-Light.eot');
+   src: url('fonts/ufonts.com_gotham-thin.ttf')  format('truetype'), 
+   url('fonts/Gotham-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+ }
+/*
+So for divs, #the_div's_id is how you access that div id.
+*/
