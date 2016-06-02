@@ -31,7 +31,6 @@ body {
 }
 
 #left{
-	background-color: white;
 	display: inline-block;
 	float: left;
 	width: 480px;
@@ -39,16 +38,13 @@ body {
 	
 }
 #right {
-	background-color: white;
 	display: inline-block;
 	float: right;
 	width: 480px;
 	height: 300px;
 	
 }
-
 #text_below_left {
-	float: center;
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 400px;
@@ -63,6 +59,48 @@ body {
   	clear: both;
 }
 
+#left_3col{
+	float: left;
+	padding: 0px auto 0px;
+	width: 320px;
+	height: 300px;
+	
+}
+#right_3col {
+	float: right;
+	padding: 0px auto 0px;
+	width: 320px;
+	height: 300px;
+	
+}
+#center_3col {
+	display: inline-block;
+	float: center;
+	padding: 0px auto 0px;
+	width: 300px;
+	height: 300px;
+}
+
+#text_below_left3 {
+	float: left;
+	padding-left: 20px;
+	width: 300px;
+  	clear: both;
+}
+
+#text_below_right3 {
+	float: right;
+	padding-right: 20px;
+	width: 300px;
+  	clear: both;
+}
+
+#text_below_center3 { 
+	float: center;
+	width: 320px;
+}
+
+
 #footer {
 	width: 450px;
 	height: 20px;
@@ -70,7 +108,74 @@ body {
 	position: fixed;     
 	bottom: 10px;
 	padding-left: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#images {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	padding: 10px auto 10px auto;
+}
+
+#box1 {
+	float: left;
+	width: 300px;
+	height: 150px;
+	background-image: url('../images/Pink_Star.png');
+	background-repeat: repeat;
+	background-size: 38px;
+	margin: 30px;
+}
+
+#box1:hover {
+	background-image: url('../images/Teal_Star.png');
+	background-repeat: repeat;
+}
+
+#box2 {
+	float: right;
+	width: 300px;
+	height: 150px;
+	background-image: url('../images/Orange_Star.png');
+	background-repeat: repeat;
+	background-size: 38px;
+	margin: 30px;
+}
+
+#box2:hover {
+	background-image: url('../images/Golden_Star.png');
+	background-repeat: repeat;
+}
+
+#box3 {
+	float: left;
+	width: 300px;
+	height: 150px;
+	background-image: url('../images/Golden_Star.png');
+	background-repeat: repeat;
+	background-size: 38px;
+	margin: 30px;
+}
+
+#box3:hover {
+	background-image: url('../images/Pink_Star.png');
+	background-repeat: repeat;
+}
+
+#box4 {
+	float: right;
+	width: 300px;
+	height: 150px;
+	background-image: url('../images/Teal_Star.png');
+	background-repeat: repeat;
+	background-size: 38px;
+	margin: 30px;
+}
+
+#box4:hover {
+	background-image: url('../images/Orange_Star.png');
+	background-repeat: repeat;
 }
 
 .right_image {
@@ -88,6 +193,34 @@ body {
     width: 50%;
     height: 50%;
     padding-bottom: 20px;
+    clear: both;
+}
+
+.right_image3 {
+	float: right;
+	padding-right: 75px;
+    width: 50%;
+    height: 50%; 
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.left_image3 {
+	float: left;
+	padding-left: 75px;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.center_image3 {
+	float: center;
+	padding-left: 75px;
+	padding-right: 75px;
+    width: 50%;
+    height: 50%; 
+    padding-bottom: 7px;
     clear: both;
 }
 
@@ -150,8 +283,20 @@ h1 {
 	text-align: center;
 }
 
-h1:hover {
+h1.LeftRight:hover {
 	color: #FFCFAE;
+}
+
+h1.Pink:hover {
+	color: #EA4C97;
+}
+
+h1.Golden:hover {
+	color: #FFDA7D;
+}
+
+h1.Teal:hover {
+	color: #73E5D0;
 }
 
 @font-face {
