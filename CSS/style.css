@@ -159,7 +159,7 @@ body {
 }
 
 #box3:hover {
-	background-image: url('../images/Pink_Star.png');
+	background-image: url('../images/Orange_Star.png');
 	background-repeat: repeat;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 #box4:hover {
-	background-image: url('../images/Orange_Star.png');
+	background-image: url('../images/Pink_Star.png');
 	background-repeat: repeat;
 }
 
